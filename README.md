@@ -11,3 +11,6 @@ Project Atlas is a complete DevOps CI/CD implementation that Demonstrates Git Ve
 
 ## Goal
 To build a production-style CI/CD pipeline from scratch.
+
+## Status
+Initial repository setup Completed.
