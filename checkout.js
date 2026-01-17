@@ -1,3 +1,3 @@
 function calculatePrice(amount) {
-  return amount + 30;
+  return amount * 0.5 + 30;
 }
