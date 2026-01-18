@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.maven.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-18T04:55:43.865Z" hostname="HP" time="0.019">
+  <properties/>
+  <testcase name="testAdd" classname="com.maven.CalculatorTest" time="0.007"/>
+  <testcase name="testSubtract" classname="com.maven.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
