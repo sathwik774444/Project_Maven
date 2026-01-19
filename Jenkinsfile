@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building application'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running tests'
+                bat 'mvn test'
             }
         }
 
@@ -23,10 +23,10 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline SUCCESS'
+            echo 'All tests passed. Safe to deploy.'
         }
         failure {
-            echo 'Pipeline FAILED'
+            echo 'Tests failed. Deployment stopped.'
         }
     }
 }
